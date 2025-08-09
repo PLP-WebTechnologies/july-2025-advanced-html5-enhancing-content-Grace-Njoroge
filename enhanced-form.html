@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech World Institute</title>
+</head>
+<body>
+    <header>
+        <h1>Tech World Institute</h1>
+        <p>Your journey into tech starts here - explore, learn, and grow!</p>
+    </header>
+    <main>
+        <section>
+            <h2>Top Programs Offered</h2>
+            <ol>
+                <li>Full-Stack Web Development</li>
+                <li>Data Analytics & Visualization</li>
+                <li>Cloud Computing Fundamentals</li>
+                <li>Cybersecurity</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Weekly Class Schedule</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Program</th>
+                        <th>Session Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Full-Stack Web Dev</td>
+                        <td>10:00 AM – 12:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Data Analytics</td>
+                        <td>1:00 PM – 3:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Cybersecurity Basics</td>
+                        <td>9:00 AM – 11:00 AM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Experience Our Campus</h2>
+            <p>Take a quick tour through our modern learning session:</p>
+            <video controls width="400">
+                <source src="https://videos.pexels.com/video-files/7989671/7989671-hd_1920_1080_25fps.mp4" type="video/mp4">
+                Your browser does not support the video.
+            </video>
+            <p>See our students in action during a coding session:</p>
+            <img src="https://images.pexels.com/photos/12899138/pexels-photo-12899138.jpeg" 
+                 alt="Student writig codes on a computer" 
+                 width="400">
+        </section>
+        <section>
+            <h2>Apply Now</h2>
+            <form action ="#" method=""post">
+                <label for ="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required autocomplete="name"><br><br>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="jane@example.com" required><br><br>
+                <label for="program">Program of Interest:</label><br>
+                <select id="program" name="program" required>
+                    <option value="">-- Select a Program --</option>
+                    <option value="web">Full-Stack Web Development</option>
+                    <option value="data">Data Analytics</option>
+                    <option value="cloud">Cloud Computing</option>
+                    <option value="cyber">Cybersecurity</option>
+                </select><br><br>
+                 <label for ="phone">Contact Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="0712345678" pattern="[0-9]{10}" required><br><br>
+                <label for="regID">Application ID:</label><br>
+                <input type="text" id="regID" name="regID" value="BFI2025-001" readonly><br><br>
+                <input type="submit" value="Submit Application">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Tech World Institute. All rights reserved.</p>
+        </footer>
+</body>
+</html>
